@@ -46,7 +46,6 @@ public class KYCService {
 
     
 
-
 //  Update customer details to include National ID and profile image
     public ResponseEntity<CustomerDTO> SaveCustomerImages(MultipartFile frontPhotoId, MultipartFile backPhotoId, MultipartFile selfieImage, Long customerId){
     //  Select customer        
